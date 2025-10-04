@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device‑width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Shree Sai Siddhi</h1>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="contact-section">
+    <div class="container contact-wrapper">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Have questions, feedback, or need help? Fill out the form and we’ll get back to you asap.</p>
+        <div class="contact-details">
+          <p><strong>Email:</strong> support@yourdomain.com</p>
+          <p><strong>Phone:</strong> +91 12345 67890</p>
+          <p><strong>Address:</strong> Mumbai, Maharashtra, India</p>
+        </div>
+      </div>
+      <div class="contact-form-card">
+        <form id="contactForm" class="contact-form">
+          <div class="input-group">
+            <input type="text" id="contactName" placeholder="Your Name" required />
+          </div>
+          <div class="input-group">
+            <input type="email" id="contactEmail" placeholder="Your Email" required />
+          </div>
+          <div class="input-group">
+            <textarea id="contactMessage" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-contact">Send Message</button>
+        </form>
+        <p id="contactResponse" class="contact-response"></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Shree Sai Siddhi Cable & Internet Services</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
